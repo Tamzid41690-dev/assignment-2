@@ -101,7 +101,35 @@ a{
     text-align: center;
 
 }
-
+.single-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    max-width: 100%;
+    height: auto;
+}
+.cards h3{
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+.cards p{
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap:20px;
+}
+.button-card{
+    border: none;
+    background-color: rgb(233, 90, 8);
+    color: white;
+    padding: 1rem 5.635rem;
+}
 @media screen and (max-width:768px) {
     
 
@@ -130,5 +158,19 @@ a{
 br{
     display: none;
 }
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    row-gap:20px;
+    
+}
+.button-card{
+    border: none;
+    background-color: rgb(233, 90, 8);
+    color: white;
+    padding: auto 3.35rem;
+}
+
     
 }
