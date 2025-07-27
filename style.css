@@ -130,6 +130,40 @@ a{
     color: white;
     padding: 1rem 5.635rem;
 }
+.plant-lover-section{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+.pl-h1{
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+.pl-list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pl-list li{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+.pl-img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.trust{
+    max-width:300px;
+    height: 300px;
+    position: absolute;
+    top: 1930px;
+    left:490px;
+    right: 0;
+}
 @media screen and (max-width:768px) {
     
 
@@ -155,9 +189,10 @@ a{
     text-align: center;
     padding-top: 5%;
 }
-br{
+.txt1{
     display: none;
 }
+
 .cards{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -170,6 +205,14 @@ br{
     background-color: rgb(233, 90, 8);
     color: white;
     padding: auto 3.35rem;
+}
+.plant-lover-section{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.trust{
+    display: none;
 }
 
     
